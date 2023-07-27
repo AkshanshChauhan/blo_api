@@ -1,0 +1,117 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0051BF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: white;
+    }
+    .key-input {
+        padding: 20px;
+        max-width: 500px;
+        width: 80vw;
+        border-radius: 10px;
+        border: 0;
+        outline: 0;
+    }
+    .key-button {
+        padding: 20px 40px;
+        border-radius: 10px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+    }
+}
+
+.selection {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E6F0FF;
+    .selection-heading {
+        color: #0051BF;
+        padding: 20px 10px;
+    }
+    .selection-buttons {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .selection-button {
+            width: 100%;
+            padding: 20px;
+            font-weight: 600;
+            color: white;
+            background-color: #0051BF;
+            outline: 0px;
+            border: 0px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.edit-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E6F0FF;
+    .edit-heading {
+        color: #E6F0FF;
+        padding: 20px 10px;
+        position: sticky;
+        top: 0px;
+        background-color: #0051BF;
+    }
+    .edit-info-section {
+        background-color: white;
+        padding: 10px;
+        .edit-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .edit-info-head {
+                font-weight: 600;
+                color: #0051BF;
+            }
+            .edit-info-input {
+                padding: 20px;
+                background-color: #E6F0FF;
+                outline: 0;
+                border: 0;
+            }
+        }
+    }
+    .edit-upload-button {
+        padding: 20px;
+        width: calc(100% - 20px);
+        margin: 10px;
+        background-color: #00bf0d;
+        color: white;
+        font-weight: 600;
+        outline: 0;
+        border: 0;
+    }
+}
+
+.view-section {
+    padding: 10px;
+    table {
+        width: max-content;
+        border: 1px solid black;
+        padding: 10px;
+        th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .sno {
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}
