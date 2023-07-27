@@ -47,6 +47,7 @@ router.post("/", (req, res, next) => {
     bloData.save()
         .then(res => console.log(res))
         .catch(err => console.log(err));
+
     res.status(200).json({
         message: "Data is Successfully Posted",
         student_data_to_post: bloData
