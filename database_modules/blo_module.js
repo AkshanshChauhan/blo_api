@@ -8,7 +8,7 @@ const bloSchema = mongoose.Schema({
     input4: String,
     input5: String,
     input6: Number,
-    input7: Number,
+    input7: String,
     input8: Number,
     input9: Number,
     input10: Number,
